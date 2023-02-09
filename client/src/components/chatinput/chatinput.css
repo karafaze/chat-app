@@ -1,0 +1,35 @@
+.chat--input{
+    width: 80%;
+    font-family: var(--text-font);
+    font-size: 1em;
+    border: none;
+    outline: none;
+    padding: .7em 0.4em;
+}
+
+.chat--input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.chat--input__btnwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0em;
+    width: 20%;
+}
+
+.chat--input__btn{
+    font-family: var(--title-font);
+    font-size: 1em;
+    height: 2.5em;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    border:none;
+}
+
+.chat--input__btnwrapper i {
+    cursor: pointer;
+    font-size: 1em;
+}

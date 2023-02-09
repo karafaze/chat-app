@@ -1,0 +1,34 @@
+header {
+    padding: 0.5em 1em;
+    box-shadow: 0px 5px 12px 0px #7c7c7c;
+    /* margin-bottom: 2em; */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.navbar--title {
+    font-family: var(--title-font);
+}
+
+.navbar--btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .3em;
+}
+.navbar--btn i {
+    font-size: 1.5em;
+}
+.leavechat-btn{
+    font-size: 1em;
+    font-family: var(--title-font);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}

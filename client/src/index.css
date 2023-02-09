@@ -1,0 +1,29 @@
+:root{
+    --primary-color: #EB455F;
+    --secondary-color: #FCFFE7;
+    --ternary-color: #BAD7E9;
+    --quaternary-color: #2B3467;
+    --text-font: 'Karla', sans-serif;
+    --title-font: 'Righteous', cursive;
+}
+
+div#root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    padding:0;
+    margin: 0;
+    font-family: var(--text-font);
+}
+
+main{
+    flex-grow: 1;
+}
+
+h1{
+    font-family: var(--title-font);
+    text-align: center;
+}

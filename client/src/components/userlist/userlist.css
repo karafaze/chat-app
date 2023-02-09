@@ -1,0 +1,39 @@
+.chat--users__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.chat--users__title h2 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.chat--users__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+    gap: 1em;
+}
+
+.chat--users__single {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+
+.chat--users__single i {
+    font-size: 1.2em;
+}
+
+.chat--users__single span {
+    font-size: 1.1em;
+}

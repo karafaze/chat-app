@@ -1,0 +1,14 @@
+.message__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: 60%;
+    gap: .5em;
+}
+
+.align-to-end{
+    justify-content: flex-end;
+    align-self: flex-end;
+}
